@@ -1,0 +1,10 @@
+domains:
+- domain: play-rbcdn.ais.co.th
+  ttl: 10
+  records:
+    play-rbcdn.ais.co.th:
+      - soa: 
+          content: ns1.play-rbcdn.ais.co.th. hostmaster.play-rbcdn.ais.co.th. 0 10800 3600 604800 3600
+          ttl: 3600
+    liberona.play-rbcdn.ais.co.th:
+      - a: 10.10.10.10
